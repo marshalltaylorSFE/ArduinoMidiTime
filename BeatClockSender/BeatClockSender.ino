@@ -27,6 +27,8 @@
 //  Set MAXTIMER to overflow number in the header.  MAXTIMER + MAXINTERVAL
 //    cannot exceed variable size.
 
+//Connect listener pin 2 to sender pin 1 (and ground)
+
 #define LEDPIN 13
 
 #define FRAMERATE 25 //24, 25, 29.97 30
